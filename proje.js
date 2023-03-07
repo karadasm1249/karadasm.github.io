@@ -11,3 +11,4 @@ function decrypt() {
 	var decrypted = CryptoJS.AES.decrypt(encryptedText, key);
 	document.getElementById("decrypted-text").value = decrypted.toString(CryptoJS.enc.Utf8);
 }
+
