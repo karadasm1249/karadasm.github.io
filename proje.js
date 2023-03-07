@@ -12,3 +12,4 @@ function decrypt() {
 	document.getElementById("decrypted-text").value = decrypted.toString(CryptoJS.enc.Utf8);
 }
 
+
